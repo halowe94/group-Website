@@ -1,1 +1,50 @@
+/* some global styles possibly */
+section {
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid black;
+}
+
+.hero {
+    height: 400px;
+    background-image: url('../images/zany-jadraque-Z4ozeEjUgq8-unsplash.jpg');
+    background-color: gray;
+    background-position: center;
+}
+
+.hero h1 {
+    background-color: ;
+}
+
+.light-gray-bg {
+    background-color: lightgray;
+}
+
+.cta {
+    background-color: cyan;
+    color: darkslategray;
+    padding: 1em;
+    border-radius: 20px;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.cta:hover {
+    background-color: darkslategray;
+    color: cyan;
+
+}
+
+.secondary-cta {
+    background-color: red;
+    color: white;
+}
+
+.secondary-cta:hover {
+    color: red;
+    background-color: white;
+}
 /* css for nathan's page only */
